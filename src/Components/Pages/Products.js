@@ -18,7 +18,7 @@ function Products() {
 					<h5 className="card-title text-light">
 						SPICES
 					</h5>
-					<a href="#" className="btn btn-light">VIEW</a>
+					<Link to="/Spices-Products" className="btn btn-light">VIEW</Link>
 				</div>
 			</div>
 			<div className="col-12 col-lg-4">
@@ -27,7 +27,7 @@ function Products() {
 					<h5 className="card-title text-light">
 						MASALA
 					</h5>
-					<a href="#" className="btn btn-light">VIEW</a>
+          <Link to="/Masala-Products"className="btn btn-light">VIEW</Link>
 				</div>
 			</div>
 			<div className="col-12 col-lg-4">
@@ -36,7 +36,7 @@ function Products() {
 					<h5 className="card-title text-light">
                     OTHER GROCERIES
 					</h5>
-					<a href="#" className="btn btn-light">VIEW</a>
+					<Link to="/Groceries-Products" className="btn btn-light">VIEW</Link>
 				</div>
 			</div>
 		</div>
