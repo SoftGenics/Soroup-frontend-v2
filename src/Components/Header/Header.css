@@ -1,0 +1,64 @@
+.navbar {
+    background-color: transparent;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.navbar-bg {
+    background-color: aliceblue;
+    opacity: 0.9;
+
+}
+.navbar-nav .nav-link {
+    color:rgb(255, 100, 100) !important;
+    padding: 1rem !important;
+    font-weight: 700;
+    font-size: 18px;
+    font-family:sans-serif;
+    transition: all 0.4s ease 0s;
+    
+}
+.navbar img {
+    width: 300px;
+    height: 200px;
+    transition: all 0.4s ease 0s;
+}
+.navbar-size img {
+    width: 200px;
+    height: 100px;
+    transition: all 0.4s ease 0s;
+}
+.navbar-nav .nav-link > a {
+    text-decoration: none !important;
+    
+    color:rgb(247, 43, 43) !important;
+}
+.navbar-nav .nav-link:hover{
+    transform: scale(1.01);
+
+}
+.navbar-light .navbar-toggler {
+    border:  none !important;
+  }
+  .navbar-light .navbar-toggler:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+.dropdown-menu > .dropdown-item > a{
+    text-decoration: none;
+  
+  }
+  .dropdown-menu > .dropdown-item > a:hover{
+    color:rgb(247, 43, 43) !important;
+  }
+  @media screen and (max-width: 960px) {
+    .navbar  {
+        background-color: aliceblue !important;
+        opacity: 1;
+    }
+    .navbar img  {
+        width: 180px;
+        height: 100px;
+    }
+  }

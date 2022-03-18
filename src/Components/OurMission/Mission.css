@@ -1,0 +1,6 @@
+.msn-vsn-container{
+    overflow: hidden;
+}
+.msn-vsn-container > p {
+    font-size: 20px;
+}

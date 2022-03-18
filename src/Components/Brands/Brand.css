@@ -1,0 +1,13 @@
+.brand-container {
+    top: 0;
+    margin-bottom: 2rem;
+}
+.brand-container .card {
+    width: 14rem !important;
+    padding: 2rem;
+    margin-right: 2rem;
+   
+}
+.brand-container .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
