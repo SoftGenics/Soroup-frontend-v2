@@ -2,7 +2,6 @@ import React from 'react'
 import './WhoWeAre.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { Image } from 'react-bootstrap'
 function WhoWeAre() {
   AOS.init();
   return (
