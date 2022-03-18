@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 
 function Products() {
   return (
